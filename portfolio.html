@@ -5,47 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-    />
+    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body class="body">
     <header class="header" id="header">
       <div class="header__container">
-        <a class="logo header__logo link-styles" href="#"
+        <a class="logo header__logo link" href="#"
           ><span class="logo--text-blue">Web</span>Studio</a
         >
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a class="menu__link link-styles" href="./index.html"
-                >Студія</a
-              >
+              <a class="menu__link link" href="./index.html">Студія</a>
             </li>
             <li class="menu__item">
-              <a
-                class="menu__link menu__link-active link-styles"
-                href="#"
+              <a class="menu__link menu__link-active link" href="#"
                 >Портфоліо</a
               >
             </li>
             <li class="menu__item">
-              <a class="menu__link link-styles" href="#footer">Контакти</a>
+              <a class="menu__link link" href="#footer">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="contact__list">
           <li class="contact__item">
             <a
-              class="contact__link link-styles"
+              class="contact__link link"
               aria-label="mail"
               href="mailto:info@devstudio.com"
             >
@@ -57,7 +53,7 @@
           </li>
           <li class="contact__item">
             <a
-              class="contact__link link-styles"
+              class="contact__link link"
               href="tel:+380961111111"
               aria-label="smartphone"
             >
@@ -73,7 +69,7 @@
 
     <main>
       <section class="portfolio">
-        <div class="portfolio__container container-styles">
+        <div class="portfolio__container container">
           <ul class="filter__list">
             <li class="filter__item">
               <button type="button" class="filter__btn">Усі</button>
@@ -91,7 +87,7 @@
               <button type="button" class="filter__btn">Маркетинг</button>
             </li>
           </ul>
-          
+
           <ul class="project__list">
             <li class="project__item">
               <a class="project__link" href="#">
@@ -320,23 +316,19 @@
     <footer class="footer" id="footer">
       <section class="footer__section">
         <div class="footer__contacts">
-          <a class="logo footer__logo link-styles" href="#header"
+          <a class="logo footer__logo link" href="#header"
             ><span class="logo--text-blue">Web</span>Studio</a
           >
           <address class="footer__contacts-details">
             <p class="footer__address">м. Київ, пр-т Лесі Українки, 26</p>
             <ul class="footer__list">
               <li class="footer__item">
-                <a
-                  class="footer__link link-styles"
-                  href="mailto:info@devstudio.com"
+                <a class="footer__link link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="footer__item">
-                <a
-                  class="footer__link link-styles"
-                  href="tel:+380961111111"
+                <a class="footer__link link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -407,7 +399,7 @@
                 id="email"
                 placeholder="E-mail"
               />
-              <button class="footer__btn" type="submit">
+              <button class="footer__btn btn" type="submit">
                 Підписатися
                 <svg class="footer__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
